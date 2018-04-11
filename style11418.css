@@ -1,0 +1,287 @@
+
+body{
+  width:100%;
+  margin: 0;
+}
+/*.drop {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+*/
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align:center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    position: relative;
+  }
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.tia {  
+  background-color: #737373;
+  padding:20px;
+}
+
+.myhead{
+  /*border:1px solid red;*/
+  font-family: condensed; 
+  line-height: 1.4em;
+  color: #ffb3bf;
+  /*max-width: 300px;*/
+  text-align: center;
+  font-size: 80px;
+  margin-top: 0px;
+  padding: 15px;
+}
+
+.me{
+  font-family: condensed;
+  text-align: center;
+  color: #ffb3bf;
+   /*color: #c3aa8e;*/
+
+}
+
+.pictures{
+    width: 100%;
+    height:750px;
+    border: 1px solid #c3c3c3;
+    display: flex;  
+    position:relative;
+    right: auto;
+       
+}
+.myself{
+  width: 500px;
+  height: 100%;
+  margin-top: 0;
+  border:1px solid black;
+  /*z-index: -1; */
+}
+
+.graduate{
+  width: 300px;
+  border:1px solid black;
+  bottom-margin:0px:
+}
+
+.chess{
+  top-margin:0px;
+  width: 300px;
+  height;:100%;
+  border:1px solid black;
+}
+
+
+.books{
+ /* width: 400px;*/
+  height: 100%;
+  border:1px solid black;
+
+ 
+}
+
+
+  
+.other {
+  display:flex;
+  flex-direction:column;
+}
+
+/*.school {
+  height: 50%;
+}
+
+*/
+
+
+
+.biodata{
+
+
+  background: linear-gradient(to bottom right ,grey,#ffb3ff,pink);
+  text-align: center;
+  padding-left:50px;
+  padding-bottom:70px;
+  border:1px solid black;
+  overflow:auto;
+  padding-bottom:80px;
+  margin-bottom:30px;
+ 
+}
+
+#my{
+  
+  color: white;
+  font-family: arial;
+  width: 270px;
+  padding: 15px;
+  background-color: #595959;
+  margin: 30px auto;
+  border-radius: 30px;
+  font-weight: 600;
+}
+
+
+
+}
+
+/*.u{
+  text-align: center;
+  margin-top: 30px;
+  background-color: #737373;
+  width: 300px;
+  height: 10px
+  border:1px solid black;
+  padding-bottom: 0px;ß
+  text-align: center;
+  font-size: 80px;
+
+
+
+}*/
+
+.biodata h3{
+  font-size:35px;
+
+}
+
+
+.biodata h4{
+  
+  font-size:20px;
+  color:white;
+  background-color: #3d0099;
+  padding: 10px;
+  width: 150px;
+  margin: 30px auto;
+  border-radius: 40px;
+  font-weight: normal;
+}
+
+.biodata {
+  font-size:25px;
+  font-family:helvetica;
+}
+
+
+ .education{
+   position: relative;
+   bottom:30px;
+
+ }
+
+ .amanah{
+    opacity: 1.0;
+    filter: alpha(opacity=1000);
+    width:100%;
+ }
+
+
+h4 {
+  color: black;
+  margin: 15 auto;
+  text-decoration: underline;
+  
+
+}
+
+
+.images{
+  width: 100%;
+  height: 100%;
+
+}
+
+div.background {
+   width: 100%;
+   position: relative;
+}
+
+#background{
+  position:relative;
+  opacity:0.5;
+  background: black;
+}
+div.transbox {
+    color: #ffffff ;
+    border: 1px solid black;
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    text-align:center;
+    flex: center;
+    justify-content: center;
+    text-decoration: center;
+    vertical-align: center;
+    align-content: center;
+    align-self: center;
+    padding-top: 300px;
+    font-size: 30px;
+
+
+    
+  }
+
+div.test{
+    background color:transparent;
+    color: white;
+    position: absolute;
+    top:auto;
+}
+  
+
+  .awards{
+    border:1px solid black;
+  }
+   
+
+
+div picture a img {
+  width: 20%;
+  height:25%;
+  position: static;
+  /*border: 3px solid #73AD21;*/
+
+
+}
+
+.picture-frame{
+  width: 33.33%;}
+
+.cool{
+  color: transparent;
+  height:50%;
+
+}
+
+
+
