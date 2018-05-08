@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Positions in School</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<style>
+
+		@import url('https://fonts.googleapis.com/css?family=Cinzel|Josefin+Slab');
+
+		body{
+		background-color:#0D4D4B;
+		}
+
+		h3{
+			font-family: 'Cinzel', serif;
+			font-size:25px;
+			text-align: center;
+			border:5px solid white;
+			max-width: 400px;
+			margin: 30px auto;
+			margin-bottom: 0;
+			padding:20px;
+			margin-bottom: 10px;
+			color:white;
+		
+
+		}
+
+		div{
+			display: flex;
+			flex-direction: row-reverse;
+
+
+		}
+
+		#div p{
+			margin:30px;
+			color: white;
+			border:3px solid white;
+			padding:30px;
+			flex:1;
+			display: flex;		
+			align-items: center;
+			text-align: center;
+			font-family: 'Josefin Slab', serif;
+			font-size: 17px;
+		}
+
+		#bersih{
+		position: relative;
+		top:300px;
+		}
+
+		#chess{
+		position: relative;
+		top:230px;
+
+		}
+
+		#english{
+		position: relative;
+		top:150px;
+
+		}
+
+		#PPIM{
+		position: relative;
+		top:70px;
+
+		}
+
+
+/*
+		#stairs{
+			min-width: 100px;
+		}
+
+		#stairs p{
+			border:3px solid white;
+			flex:1;
+
+		}
+*/
+
+	/*	#bersi{
+		position: relative;
+		top:280px;
+		height: 50px;
+		}
+
+		#ches{
+		position: relative;
+		top:210px;
+		height: 120px;
+
+		}
+
+		#englis{
+		position: relative;
+		top:130px;
+		height: 200px;
+
+		}
+
+		#PPI{
+		position: relative;
+		top:50px;
+		height: 280px;
+
+		}
+
+		#prefec{
+		position: relative;
+		top:-20px;
+		height: 350px;
+
+		}
+*/
+
+
+
+
+        @media screen 
+        and (max-width:768px)
+        and (min-width:700px)
+       {
+
+        body{
+        	
+        }	
+
+        #div{
+        	position: relative;
+        	top:-90px;
+        	margin: 0 auto;
+        	width: 100%;
+
+        }
+
+        #div p{
+        	position:absolute;
+        	height:80px;
+        	width: 75px;
+        }
+
+       
+
+		#PPIM{
+
+		top:400px;
+		right:36.5%;	
+
+		
+		}
+
+
+		#prefect{
+		top:270px;
+		right:55.5%;	
+
+		}
+
+
+		 #bersih{	
+		top:270px;
+		left:55.5%;
+		
+		}
+
+		#chess{
+		top:140px;
+		right:74.5%;
+		}
+
+		#english{
+		top:140px;
+		/*right: -1.5%;*/
+		left:74.5%;
+		}
+
+	}
+
+
+
+
+
+		@media screen and (max-width:699px){
+			#div{
+				display: flex;
+				flex-direction: column;
+				width: 100%;
+				margin: 0 auto;
+
+			}
+
+			div p{
+				margin-top: 20px;
+				height:100%;
+				justify-content: center;
+				min-height:150px;
+
+				
+
+			}
+
+			#bersih{
+			position: static;
+			top:0;
+			
+			}
+
+			#chess{
+			position: static;
+			top:0;
+			
+
+			}
+
+			#english{
+			position: static;
+			top:0;
+			
+
+			}
+
+			#PPIM{
+			position: static;
+			top:0;
+			
+			}
+
+			#prefect{
+			
+			}
+
+		}
+
+
+
+
+		
+
+	</style>
+
+
+
+</head>
+<body>
+
+<h3>Positions in School</h3>
+
+<div id='div'>
+	<p id='bersih'>Ketua Kebersihan 5 Amanah<br/>(2017)</p>
+	<p id='chess'> Active Member of Chess Club<br/>(2017)</p>
+	<p id='english'>Active Member of English Language Society<br/>(2017)</p>
+	
+	<p id='PPIM'>President of Puteri Islam Sekolah<br/>(2017)</p>
+	<p id='prefect'>Secretary of Prefetorial Board<br/>(2017)</p>
+</div>
+
+<!-- <div id='stairs'>
+	<p id='bersi'></p>
+	<p id='ches'> </p>
+	<p id='englis'></p>
+	<p id='PPI'></p>
+	<p id='prefec'></p>
+</div> -->
+
+
+
+
+
+</body>
