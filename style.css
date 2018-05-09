@@ -46,7 +46,10 @@ html, body{
 	font-weight:bold;
 	
 	
+	
 }
+
+
 
 
 .content1 , .content2{
@@ -74,8 +77,10 @@ html, body{
 
 #aboutme{
 	font-size:20px;
+
 	font-family: 'Josefin Slab', serif;
 }
+
 
 
 
@@ -158,11 +163,11 @@ footer h3{
 
 /* Style all font awesome icons */
 .fa {
-    font-size: 30px;
-    text-align: center;
+    font-size: 30px;  
     text-decoration: none;
     margin-top:20px ;
     border-radius:10px;
+    margin-left: 20px;
 
 
    
